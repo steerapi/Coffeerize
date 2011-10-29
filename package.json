@@ -1,0 +1,22 @@
+{
+	"name": "coffeerize"
+	,
+	"version": "0.0.1"
+	,
+	"author": "Surat Teerapittayanon"
+	,
+	"description": "Coffeerize a folder. Convert a javascript folder to a coffeescript folder."
+	,
+	"homepage": "http://github.com/Wisdom/Coffeerize"
+	,
+	"dependencies": {
+		"coffee-script": ">= 1.1.2"
+	}
+	,
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://github.com/Wisdom/Coffeerize/LICENSE"
+		}
+	]
+}

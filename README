@@ -1,2 +1,3 @@
+Requires coffee-script and js2coffee
 Install: npm install -g coffeerize
 Usage: coffeerize [folder]

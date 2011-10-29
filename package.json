@@ -9,14 +9,20 @@
 	,
 	"homepage": "http://github.com/Wisdom/Coffeerize"
 	,
-	"dependencies": {
-		"coffee-script": ">= 1.1.2"
-	}
-	,
 	"licenses": [
 		{
 			"type": "MIT",
 			"url": "http://github.com/Wisdom/Coffeerize/LICENSE"
 		}
 	]
+	,
+	"engines": {
+		"node": ">=0.4.0"
+	},
+	"directories": {
+		"bin": "./lib/coffeerize"
+	},
+	"bin": {
+		"coffeerize": "./bin/coffeerize"
+	}
 }

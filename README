@@ -1,1 +1,2 @@
-Usage: coffee coffeerize.coffee [folder]
+Install: npm install -g coffeerize
+Usage: coffeerize [folder]

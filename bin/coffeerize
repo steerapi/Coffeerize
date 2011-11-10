@@ -25,7 +25,7 @@ exec_coffee_cb = (error, stdout, stderr) ->
         julia.stdout.on 'end', ()->
           #console.log("{"+data+"}")
           name = "#{filename}.coffee"
-          fs.writeFileSync name, data
+          fs.writeFileSync name, alldata
           console.log "complied: " + name
           exec "rm #{filename}.js", (error, stdout, stderr) ->
             console.log stderr if error

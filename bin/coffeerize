@@ -19,7 +19,10 @@ exec_coffee_cb = (error, stdout, stderr) ->
       content = fs.readFileSync "#{filename}.js"
       julia = spawn(cmd, [])
       do (filename)->
+        alldata = ""
         julia.stdout.on 'data', (data)->
+          alldata += data
+        julia.stdout.on 'end', ()->
           #console.log("{"+data+"}")
           name = "#{filename}.coffee"
           fs.writeFileSync name, data
